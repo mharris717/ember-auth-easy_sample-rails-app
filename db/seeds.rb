@@ -9,3 +9,6 @@
 Post.destroy_all
 Post.create! :title => "FIRST POST!!", :body => "This is the first post", :user => User.first
 Post.create! :title => "What Now?", :body => "I'm pretty worn out after that epic first post", :user => User.first
+
+User.destroy_all
+User.create! :email => "user@fake.com", :password => "password123"

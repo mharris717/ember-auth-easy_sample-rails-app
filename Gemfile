@@ -36,3 +36,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'ember_auth_rails',">= 0.0.1",:github=>"mharris717/ember_auth_rails", :branch=>:master
