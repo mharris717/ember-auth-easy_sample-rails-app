@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.destroy_all
+Post.create! :title => "FIRST POST!!", :body => "This is the first post", :user => User.first
+Post.create! :title => "What Now?", :body => "I'm pretty worn out after that epic first post", :user => User.first
