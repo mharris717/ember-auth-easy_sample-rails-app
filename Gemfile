@@ -37,4 +37,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'ember_auth_rails',">= 0.0.1",:github=>"mharris717/ember_auth_rails", :branch=>:master
+gem 'ember_auth_rails',">= 0.1.0",:github=>"mharris717/ember_auth_rails", :branch=>:master
+gem 'rack-cors',:require=>"rack/cors"
+
